@@ -15,9 +15,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 17.x
-      - run: yarn add
+      - run: yarn 
     #  - run: npm run test
-      - run: yarn run build --if-present
+      - run: yarn build --if-present
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
