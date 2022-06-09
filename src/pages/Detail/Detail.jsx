@@ -17,6 +17,8 @@ const Detail = () => {
 
   useEffect(() => {
     handleDetail();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const handleDetail = async () => {
@@ -161,7 +163,7 @@ const Detail = () => {
                       <div className="col-md-4">
                         <div class="card-detail-mobil">
                           <div class="card-body">
-                            <a class="card-title d-flex justify-content-center">
+                            <a class="card-title d-flex justify-content-center" href="/detail/:id">
                               <ModalImage
                                 small={dataDetail.image}
                                 large={dataDetail.image}

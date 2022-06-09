@@ -54,12 +54,12 @@ function NavbarRental() {
                 </a>
               </li>
               <li className="nav-item">
-                <a
+                <button
                   className="nav-link btn btn-sm btn-register"
                   onClick={handleLogout}
                 >
                   Logout
-                </a>
+                </button>
               </li>
             </ul>
           </div>

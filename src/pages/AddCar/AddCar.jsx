@@ -7,6 +7,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import "./AddCar.css";
 
 const AddCar = () => {
+  const [setDataCar] = useState([]);
   const [name, setName] = useState("");
   const [price, setPrice] = useState(0);
   const [image, setImage] = useState("");
@@ -34,6 +35,7 @@ const AddCar = () => {
           },
         }
       );
+      setDataCar(res.data);
     } catch (error) {
       console.log(error);
     }
@@ -64,15 +66,15 @@ const AddCar = () => {
                   <div className="row">
                     <div className="col-12">
                       <div className="sub-tree d-flex mt-3 mb-3">
-                        <a>
+                        <a href="/dashboard">
                           <p className="fw-bold">Cars</p>
                         </a>
                         <i className="fa fa-solid fa-chevron-right mx-2"></i>
-                        <a>
+                        <a href="/listcar">
                           <p className="fw-bold">List Car</p>
                         </a>
                         <i className="fa fa-solid fa-chevron-right mx-2"></i>
-                        <a>
+                        <a href="/add_car">
                           <p>Add New Car</p>
                         </a>
                       </div>

@@ -40,35 +40,35 @@ function FooterRental() {
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 sosmed-list">
               <p>Connect with us</p>
-              <a href="#">
+              <a href="https://facebook.com">
                 <i>
-                  <img src={FB} />
+                  <img src={FB} alt="fb" />
                 </i>
               </a>
-              <a href="#">
+              <a href="https://instagram.com">
                 <i>
-                  <img src={IG} />
+                  <img src={IG} alt="ig" />
                 </i>
               </a>
-              <a href="#">
+              <a href="https://twitter.com">
                 <i>
-                  <img src={Twit} />
+                  <img src={Twit} alt="twit" />
                 </i>
               </a>
-              <a href="#">
+              <a href="https://gmail.com">
                 <i>
-                  <img src={Mail} />
+                  <img src={Mail} alt="mail" />
                 </i>
               </a>
-              <a href="#">
+              <a href="https://twitch.com">
                 <i>
-                  <img src={Twitch} />
+                  <img src={Twitch} alt="twitch" />
                 </i>
               </a>
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 copyright">
               <p>Copyright Binar 2022</p>
-              <img src={Logo} />
+              <img src={Logo} alt="logo" />
             </div>
           </div>
         </div>
