@@ -16,7 +16,7 @@ const Invoice = () => {
           <div className="container">
             <div className="row row-head">
               <div className="col-md-5 mt-3 ms-3">
-                <a href="#">
+                <a href="/">
                   {" "}
                   <img src={arrowLeft} alt="" /> Tiket{" "}
                 </a>
